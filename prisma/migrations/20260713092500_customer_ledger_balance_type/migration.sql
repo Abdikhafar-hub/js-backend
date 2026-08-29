@@ -1,0 +1,2 @@
+ALTER TABLE "CustomerLedgerEntry"
+ADD COLUMN "balanceType" TEXT NOT NULL DEFAULT 'OUTSTANDING';
